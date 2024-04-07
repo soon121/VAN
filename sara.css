@@ -15,7 +15,7 @@ scroll-behavior: smooth;
      justify-content:space-between;
      align-items: center;
      padding: 10px 200px;
-     box-shadow: 0 7px 9px rgb(67, 126, 182), 0 9px 20px rgb(210, 144, 236); 
+     box-shadow: 0 7px 9px rgb(131, 207, 252), 0 9px 20px rgb(216, 148, 243);
  }
 
 .logo{
@@ -26,12 +26,11 @@ border-radius: 17px;
   color:rgb(10, 14, 73);
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 1.8em; box-shadow: 0 4px 8px rgb(145, 199, 247), 0 6px 20px rgb(195, 142, 202); 
-
+  font-size: 1.8em; box-shadow: 0 4px 8px rgb(147, 189, 209), 0 6px 20px rgb(243, 175, 243);
 
     }
     .logo:hover{
-        font-size: 1.8em; box-shadow: 0 4px 8px rgb(110, 28, 106), 0 6px 20px rgb(43, 60, 158); 
+        font-size: 1.8em; box-shadow: 0 4px 8px rgb(255, 255, 255), 0 6px 20px rgb(221, 221, 223);
     }
 .navigation a{
     color:rgb(62, 188, 197);
@@ -51,7 +50,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(IMAGE/LOG\ IN.jpg) no-repeat ;
+    background: url(IMAGE/16.jpg) no-repeat ;
     background-size:cover;
     background-position:center;
     background-attachment: fixed;
@@ -487,7 +486,7 @@ footer-title {
 
 
    .cat{
-    background-image:url(IMAGE/Untitled\ design.png);
+    background-image:url(IMAGE/17.jpg);
     margin: 0px 20px;
     padding: 10px;
     
@@ -562,4 +561,22 @@ footer-title {
  
      
  
+   #btn{
+
+    width: 45px;
+    height: 45px;
+  border-radius: 20px;
+  border: none;
+  background: #fffffd;
+  cursor:pointer;
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+  display: none;
+  box-shadow: 0 4px 8px rgb(255, 255, 255), 0 6px 20px rgb(0, 0, 0);
+  }
+  #btn:hover{
   
+    box-shadow: 0 4px 8px rgb(148, 185, 196), 0 6px 20px rgb(0, 0, 0);
+   
+  }

@@ -21,19 +21,19 @@ scroll-behavior: smooth;
 .logo{
  
 
-
-    background-color: #768c9c;
-border-radius: 17px;
-  text-decoration: none;
-  color:rgb(254, 252, 255);
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 1.8em; box-shadow: 0 4px 8px rgb(42, 66, 87), 0 6px 20px rgb(0, 0, 0); 
+  background-color: #8dc8ca;
+  border-radius: 17px;
+    text-decoration: none;
+    color:rgb(254, 252, 255);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em; box-shadow: 0 4px 8px rgb(42, 66, 87), 0 6px 20px rgb(0, 0, 0); 
+  
     }
 .logo:hover{
   color: rgb(248, 238, 238);
   text-decoration: none;
-  box-shadow: 0 4px 8px rgb(0, 0, 0), 0 6px 20px rgb(223, 217, 217) ; 
+  box-shadow: 0 4px 8px rgb(255, 253, 253), 0 6px 20px rgb(223, 217, 217) ; 
 }
 
 
@@ -397,16 +397,16 @@ box-shadow: 0 4px 8px rgb(40, 65, 121), 0 6px 20px rgb(98, 149, 243);
 
 
  .cat{
-background-image:url(IMAGE/Untitled\ design.png);
+background-image:url(IMAGE/17.jpg);
 margin: 0px 220px;
 padding: 20px;
 
 border-radius: 15px;
 border-style: dashed;
-box-shadow: 0 4px 8px rgb(82, 119, 121), 0 6px 20px rgb(0, 0, 0); 
+box-shadow: 0 4px 8px rgb(0, 0, 0), 0 6px 20px rgb(0, 0, 0); 
  } 
  .cat:hover{
-  box-shadow: 0 4px 8px rgb(241, 234, 241), 0 6px 20px rgb(26, 193, 235);
+  box-shadow: 0 4px 8px rgb(241, 234, 241), 0 6px 20px rgb(228, 250, 255);
  }    
 
 
@@ -471,4 +471,22 @@ box-shadow: 0 4px 8px rgb(82, 119, 121), 0 6px 20px rgb(0, 0, 0);
 
 
  }
-  
+ #btn{
+
+  width: 45px;
+  height: 45px;
+border-radius: 20px;
+border: none;
+background: #fffffd;
+cursor:pointer;
+position: fixed;
+right: 20px;
+bottom: 10px;
+display: none;
+box-shadow: 0 4px 8px rgb(255, 255, 255), 0 6px 20px rgb(0, 0, 0);
+}
+#btn:hover{
+
+  box-shadow: 0 4px 8px rgb(148, 185, 196), 0 6px 20px rgb(0, 0, 0);
+ 
+}

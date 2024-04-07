@@ -21,19 +21,19 @@ header {
 	box-shadow: 0 7px 9px rgb(244, 255, 255)  , 0 9px 20px  #496a72; 
     }
     .logo{
-		background-color: #273e7c;
+		background-color: #344966;
 		border-radius: 10px;
 		  text-decoration: none;
 		  color:rgb(219, 219, 219);
 		  text-transform: uppercase;
 		  font-weight: 800;
-		  font-size: 1.8em; box-shadow: 0 4px 8px rgb(145, 199, 247), 0 6px 20px rgb(195, 142, 202); 
+		  font-size: 1.8em; box-shadow: 0 4px 8px rgb(7, 8, 8), 0 6px 20px rgb(20, 20, 20); 
     font-size: 30px;
     
         }
 
 		.logo:hover{
-			 box-shadow: 0 4px 8px rgb(35, 61, 83), 0 6px 20px rgbrgb(33, 11, 36)
+			 box-shadow: 0 4px 8px rgb(246, 251, 255), 0 6px 20px rgb(255, 254, 255);
 		}	
 
 
